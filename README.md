@@ -21,11 +21,11 @@ Currently, the extension is only availble by
 
 # TODO:
 
-- [ ] Update icons
 - [ ] Refactor content.js
 - [ ] Add a button to put websites on an allowlist
 - [ ] Show the amount of images blocked (on this tab, in this session, in total)
 - [ ] Compatibility with Firefox Android
+- [ ] Update icons
 - [ ] Publish on the Firefox Extension Store
 - [ ] Option to block even cached images (different use case than data saving)
 

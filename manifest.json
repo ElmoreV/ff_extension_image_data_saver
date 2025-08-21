@@ -4,7 +4,7 @@
     "version" : "0.1",
     "description" : "Delay the loading of images on website, until the user wishes to load the image.",
     "icons" : {
-       "48" : "icons/border-48.png"
+       "32" : "icons/image2-32.png"
     },
     "content_scripts" : [
         {
@@ -24,7 +24,7 @@
     ],
     "host_permissions": ["<all_urls>"],
     "action" : {
-        "default_icon" : "icons/border-48.png",
+        "default_icon" : "icons/image2-32.png",
         "default_title" : "Image delayer"
     },
     "background" : {
