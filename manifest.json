@@ -1,8 +1,8 @@
 {
     "manifest_version" : 3,
-    "name" : "Image delayer",
+    "name" : "Images on Demand",
     "version" : "0.1",
-    "description" : "Delay the loading of images on website, until the user agrees",
+    "description" : "Delay the loading of images on website, until the user wishes to load the image.",
     "icons" : {
        "48" : "icons/border-48.png"
     },
