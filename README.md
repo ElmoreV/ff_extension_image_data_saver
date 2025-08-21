@@ -1,12 +1,14 @@
 # Image Data Saver (Firefox Extension)
+
 Saves bandwidth on a metered data connection by blocking images (unless allowed by the user). Incidentally, this might make page loading faster.
 
 # Features
 
 - Toggle image-blocking on and off by pressing the extension button in the toolbar
 - After toggling the image-blocking, the change takes effect after reloading the page.
-- When image blocking is enabled: all images are replaced by a placeholder
-- When you click on a placeholder: it will try to load the image
+- When image blocking is enabled: all images are not loaded, and are instead replaced by a placeholder
+- When you click on a placeholder: it will try to request this image on-demand. Only the image that is clicked will be loaded.
+- Note: when the image is cached by Firefox, the image will be loaded anyway, but no internet bandwidth will be used.
 
 # Installation
 
@@ -25,6 +27,7 @@ Currently, the extension is only availble by
 - [ ] Show the amount of images blocked (on this tab, in this session, in total)
 - [ ] Compatibility with Firefox Android
 - [ ] Publish on the Firefox Extension Store
+- [ ] Option to block even cached images (different use case than data saving)
 
 # Will not do:
 
